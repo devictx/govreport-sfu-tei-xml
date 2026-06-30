@@ -31,7 +31,7 @@
 
 ```python
 parser.add_argument("--doc-index", type=int, default=5, help="Process only one specific document index (0-based).")
-
+```
 
 После этого запустите **Первый блок**. На выходе в папке `tei_reports` появится документ в формате `Tei(xml)`.
 
@@ -100,5 +100,3 @@ output_xml = "1851_final_marked.xml"
 2. Проверьте итоговый файл на наличие ошибок.
 
 В итоге вы получите полностью размеченный файл в формате TEI.
-```
-
